@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug main.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/program/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "--input-drive", "supporting-data/drive",
+                "--input-vehicle", "supporting-data/vehicle.csv",
+                "--output", "output/daily_trips",
+                "--date", "2025-01-07"
+            ]
+        }
+    ]
+}
